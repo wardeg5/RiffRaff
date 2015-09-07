@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--copywrite  Warren degenhardt 2015 -->
+<!--wallpaper copywrite  Daweed 2015 -->
+  <meta charset="UTF-8">
+
+  <title>Riff Raff Name Generator</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<meta name="description" content="Riff Raff Name Generator. Create your rap game name.">
+
+</head>
+
+<body>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- namegen -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4683415069499791"
+     data-ad-slot="5653407091"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div id="fb-root">
+
+</div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <video autoplay muted  poster="http://i.imgur.com/xNShmnt.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+
+<source src="video/riff.mp4" type="video/mp4">
+</video>
+<div id="polina">
+<h1>RIFF RAFF NAME GENERATOR</h1>
+
+<p>"My name is whatever anyone wants it to be. As a matter of fact, I might change my name to be Captain Funzo."- Riff Raff</p>
+ENTER YOUR NAME : <input id="inputName">
+<button onclick="pickAName()">ENTER THE RAP GAME</button>
+<br>
+YOUR RiFF RAFF NAME:   <h2 id="name" font size="60"></h2>
+<br>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+<script>
+
+var firstName = ["NO", "BALLA", "VERSACE", "GUCCi", "BUTTERSCOTCH", "SEXY", "AQUABERRY", "CANDY RED", "CANDY BLUE", "CANDY APPLE", "CANDY GREEN", "SUGAR COATED", "YOKED", "NEON", "DANK", "MYSTERIOUS", "BALLA", "VERSACE", "GUCCi", "BUTTERSCOTCH", "SEXY", "AQUABERRY", "CANDY RED", "CANDY BLUE", "CANDY APPLE", "CANDY GREEN", "SUGAR COATED", "YOKED", "NEON", "DANK"];
+var lastName = ["NAME", "PUPPY", "RAP GAME", "HUSKY", "COCAiNE", "SUGAR", "DiSCO", "BABY", "iCEBURG", "SIMPSON", "SAFARi", "DOLPHiN", "BALL PLAYER", "OZ", "iCON", "GUCCi MAN", "BLUEBERRY", "PUPPY", "RAP GAME", "HUSKY", "COCAiNE", "SUGAR", "DiSCO", "BABY", "iCEBURG", "SiMPSON", "SAFARi", "DOLPHiN", "BALL PLAYER", "OZ"];
+var riffSpeak = ["JODY", "HiGH ROLLER", "ALiEN", "PYTHON",  "iCON",  "NEON iCON",  "CRAB",  "LOBSTER",  "MASTER",  "MONSTER",  "BALLER", "SHiRLEY TEMPLE",  "OPRAH",  "DEAN SANDERS",  "GARY PAYTON",  "SUSHi SANDERS",  "MUSCLE MAN", "JODY", "HiGH ROLLER", "ALiEN", "PYTHON",  "iCON",  "NEON iCON",  "CRAB",  "LOBSTER",  "MASTER",  "MONSTER",  "BALLER", "SHiRLEY TEMPLE",  "OPRAH",  "DEAN SANDERS",  "GARY PAYTON",  "SUSHi SANDERS",  "MUSCLE MAN"];
+var pickAName = function () {
+var getName = document.getElementById("inputName");
+var rollName = getName.value.length;
+ if (rollName > 28) {
+       rollName = 27;
+    }
+if (rollname = 0){
+rollName = "undefined";
+
+}
+var thisFirst = firstName[rollName];
+var thisLast = lastName[rollName];
+var thisSpeak = riffSpeak[Math.floor(Math.random() * 17)];
+document.getElementById("name").innerHTML = thisFirst + " " + thisLast + " " + thisSpeak;
+
+}
+
+</script>
+<div class="fb-like" data-href="http://owlgrenade.com/riffraff.html" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+</div>
+<br>
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<br>
+<script src="http://platform.tumblr.com/v1/share.js"></script>
+<a href="http://www.tumblr.com/share" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('https://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Share on Tumblr</a>
+<br>
+
+</body>
+
+</html>
